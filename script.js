@@ -18,7 +18,68 @@ var races = {
 	gnome: {
 		modifiers: [-2,0,2,0,0,2],
 		allowEdit: false
-	}
+	},
+	shir: {
+		modifiers: [2,0,0,0,-2,2],
+		allowEdit: false
+	},
+	housecat: {
+		modifiers: [0,2,0,0,-2,2],
+		allowEdit: false
+	},
+	bastet: {
+		modifiers: [0,0,-2,2,0,2],
+		allowEdit: false
+	},
+	oread: {
+		modifiers: [2,0,0,0,2,-2],
+		allowEdit: false
+	},
+	sylph: {
+		modifiers: [0,2,-2,2,0,0],
+		allowEdit: false
+	},
+	ifrit: {
+		modifiers: [0,2,0,0,-2,2],
+		allowEdit: false
+	},
+	undine: {
+		modifiers: [-2,2,0,0,2,0],
+		allowEdit: false
+	},
+	gnoll: {
+		modifiers: [2,0,2,0,0,0],
+		allowEdit: true
+	},
+	goblin: {
+		modifiers: [-2,4,0,0,0,-2],
+		allowEdit: false
+	},
+	hobgoblin: {
+		modifiers: [0,2,2,0,0,0],
+		allowEdit: false
+	},
+	kitsune: {
+		modifiers: [-2,2,0,0,0,2],
+		allowEdit: true
+	},
+	kobold: {
+		modifiers: [-4,2,-2,0,0,0],
+		allowEdit: false
+	},
+	lizardfolk: {
+		modifiers: [2,0,2,0,0,0],
+		allowEdit: false
+	},
+	orc: {
+		modifiers: [4,0,0,-2,-2,-2],
+		allowEdit: false
+	},
+	ratfolk: {
+		modifiers: [-2,2,0,2,0,0],
+		allowEdit: false
+	},
+
 };
 
 var abilities = ["STR","DEX","CON","INT","WIS","CHA"];
