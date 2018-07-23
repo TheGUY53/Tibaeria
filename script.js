@@ -15,8 +15,8 @@ var races = {
 		modifiers: [-2,2,0,0,0,2],
 		allowEdit: false
 	},
-	gnome: {
-		modifiers: [-2,0,2,0,0,2],
+	grippli: {
+		modifiers: [-2,2,0,0,2,0],
 		allowEdit: false
 	},
 	shir: {
